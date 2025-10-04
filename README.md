@@ -1,6 +1,15 @@
-# 🧠 EasyLap：基于知识图谱的笔记本智能推荐搜索引擎
+# 🧠 EasyLap 
+<div align="center">
+  <h1><img src="https://picbed.octalzhihao.top/img/202510041912871.png" width="180" alt="EasyLap Logo" /></h1>
+  <h3>基于知识图谱的笔记本智能推荐搜索引擎</h3>
+</div>
 
-![](https://picbed.octalzhihao.top/img/202510041912871.png)
+<p align="center">
+  <img src="https://img.shields.io/badge/Backend-Flask-blue?logo=flask" alt="Flask Badge"/>
+  <img src="https://img.shields.io/badge/Frontend-Vue-green?logo=vue.js" alt="Vue Badge"/>
+  <img src="https://img.shields.io/badge/LLM-InternLM3--8B-orange?logo=OpenAI" alt="InternLM Badge"/>
+  <img src="https://img.shields.io/badge/Graph-neo4j-lightblue?logo=neo4j" alt="Neo4j Badge"/>
+</p>
 
 ## 🔮 Background
 笔记本电脑市场竞争激烈，用户在选购时需综合考虑性能、价格、品牌、用途等多维度因素。
@@ -23,9 +32,39 @@ EasyLap项目的主要价值体现在：
 
 ## 🏗️ Project Architecture Diagram
 
-![](https://picbed.octalzhihao.top/img/202510041905431.jpg)
+<div align="center">
+  <img src="https://picbed.octalzhihao.top/img/202510041905431.jpg" width="80%" alt="Project Architecture Diagram"/>
+</div>
+
+---
 
 ## 🎯 Anticipated outcome
 
-![](https://picbed.octalzhihao.top/img/202503051025502.png)
+<div align="center">
+  <img src="https://picbed.octalzhihao.top/img/202503051025502.png" width="80%" alt="Anticipated Outcome"/>
+</div>
 
+## 🚀 Tech Stack Overview
+
+| 模块 | 技术栈 | 说明 |
+|------|--------|------|
+| 前端 | Vue3 + Element Plus | 构建智能搜索与推荐可视化界面 |
+| 后端 | Flask | 提供接口服务与模型推理 |
+| 模型 | InternLM3-8B + LoRA 微调 | 实现中文语义理解与查询生成 |
+| 知识图谱 | Neo4j | 存储笔记本实体与属性关系 |
+| 数据源 | DrissionPage 自动化爬取 | 从主流电商平台采集笔记本数据 |
+
+---
+
+## 📌 Highlights
+
+- 🧭 自然语言查询 → 图数据库语义匹配  
+- 🧩 中文用户友好设计  
+- 🔍 支持多维度筛选与个性化推荐  
+- 🤖 可扩展微调模型以适配多领域需求  
+
+---
+
+<div align="center">
+  <b>💡 EasyLap：让每一次笔记本选择都更智能 💡</b>
+</div>
